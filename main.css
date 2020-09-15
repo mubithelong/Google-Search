@@ -1,0 +1,100 @@
+/* ------------------------      Nav Bar       ---------------------------- */
+
+div#nav-bar {
+    width: 100%;
+    height: 50px;
+    
+}
+
+div#nav-bar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  
+    
+}
+div#nav-bar li {
+  
+    float: right; 
+}
+
+div#nav-bar a {
+    display: block;
+    text-decoration: none;
+    color: rgb(52, 73, 94);
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 5px;
+    margin: 15px 5px;
+}
+
+#nav-bar li a:hover {
+    color: #4d90fe ;
+    font-size: 20px;
+}
+
+/* -----------------------------  Search (google )  logo  ----------------------------------------------- */
+
+div#google-logo {
+    width: 100%;
+   
+}
+
+div#google-logo h1 {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 80px ;
+   margin: unset;
+
+}
+
+/* -------------------------------  Search form --------------------------------------- */
+form#search-form {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#search-form div {
+text-align: center;
+}
+
+input#src-bar {
+    width: 450px;
+    height: 40px;
+    padding: 0px 20px;
+    margin-top: 30px;
+    border-radius: 100px;
+    border: 1px solid rgba(220,220,220, 1);
+    font-size: 16px;
+}
+
+input#src-btn {
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin: 25px;
+    height: 35px;
+    /* border: 1px solid rgba(40, 55, 71, 0.1); */
+    border: none;
+
+}
+
+input:focus {
+    outline: none;
+   
+}
+
+input:hover {
+    box-shadow: -1px -1px 5px  rgba(220,220,220, 1), 1px 1px 5px  rgba(220,220,220, 1); 
+}
+
+input#src-btn:hover {
+    border: 1px solid rgba(40, 55, 71, 0.4);
+}
+
+input#src-btn:focus   {
+   
+    color: #4d90fe;
+    box-shadow: none;
+    border: 1px solid #4d90fe;
+}
+
